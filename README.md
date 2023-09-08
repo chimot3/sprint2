@@ -379,6 +379,13 @@ fill Authorization parameter with "Bearer {TOKEN GET FROM LOGIN}"
                                     <td>String</td>
                                     <td>Province ID</td>
                                 </tr>
+                                <tr>
+                                    <td>GET/HEAD</td>
+                                    <td>Authorization</td>
+                                    <td>Yes</td>
+                                    <td>String</td>
+                                    <td>Authorization for JWT</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
