@@ -464,4 +464,31 @@ fill Authorization parameter with "Bearer {TOKEN GET FROM LOGIN}"
 }
 ```
 
+## PHPUnit Test
 
+Test command
+
+```sh
+vendor/bin/phpunit
+```
+
+### The test :
+- testRequireEmailAndLogin()
+- testUserLoginSuccessfully()
+- testGetProvince()
+- testGetCity()
+
+### Result :
+```sh
+{
+PHPUnit 10.3.3 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.1.20
+Configuration: D:\00.LaravelApp\00.test\dot-sprint-2\phpunit.xml
+
+......                                                              6 / 6 (100%)
+
+Time: 00:08.935, Memory: 30.00 MB
+
+OK (6 tests, 29 assertions)}
+```
